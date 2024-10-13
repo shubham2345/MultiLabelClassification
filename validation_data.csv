@@ -1,0 +1,464 @@
+UTTERANCES,actor.gender,gr.amount,movie.country,movie.directed_by,movie.estimated_budget,movie.genre,movie.gross_revenue,movie.initial_release_date,movie.language,movie.locations,movie.music,movie.produced_by,movie.production_companies,movie.rating,movie.starring.actor,movie.starring.character,movie.subjects,none,person.date_of_birth
+zombie movie favorites,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+who directed avatar,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i'm looking for a jason cortlund movie,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me the actor of the movie sirisiri muvva,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+r - rated,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+please list all movies that stephen spielberg produced,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+bring up all diving movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+what are recent films by will ferrell,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+open a page about will ferrell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show me movies that are about scary zombies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+show me all r -rated movies,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+show me details about the directors of gone with the wind,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me the movies that james cameron has produced,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+what was the budget for avatar,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+was will smith in hitch,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+which director directed avatar,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i want to view only movies with tom hanks,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+what country does the movie kati patang comes from,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+what did et gross,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+who directed a hard day's night,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+information about will ferrell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show me movies from japan,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+can i have a list of movie production companies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+what genre is looper,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+find french language movies,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+look up the rating for the movie dredd,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+when will the next amazing spiderman come out,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+i am in the mood for a horror film,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+find me a movie with zombies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+what language is la havre in,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+find producer of the great debaters,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+find me dreamworks films,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+find movies with pg ratings only,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+information about movie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show me a list of all the movies directed by james cameron,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+list of dax shepard movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+what language is the movie in,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+find the male actor from dirty harry,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+find movies produced by castle rock entertainment,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+show me a list of movies with r rating,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+stephen spielberg biography,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+tom cruise movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+what were et's revenues,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+bette midler movies please,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+give me movies directed by tyler perry,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+what movies are currently playing that are rated g,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+show me the rating for the movie the mechanic,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+find movies produced by disney pixar,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+release date for amazing spiderman,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+find french language movies,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+will ferrell movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+life is beautiful,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+when is iron man 3 coming out,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+i would like to view any movies made in france,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+find movies by release date,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+find movies directed by tom hanks,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+time travel movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+find a pg rated movie,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+i want to find a list of movies made in japan,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me spanish movies,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+all about finding nemo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+give me a list of some indian movies,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+find the producer of the godfather,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+the producers for the movie ants,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+what actors played in the movies hitch,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+get me a list of current r-rated movies,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+who directed the musical score in barfi,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+what movies were produced by brad pitt,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+find the budget of my big fat greek wedding,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+who directed the sound of music,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+country that made a separation,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+how long has black swan been out,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+find oliver stone directed movies,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me mexican films,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+producer of avatar,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+tell me about michelle pfiefer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+house at the end of the street movie info,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+who is the cast and crew for now forager,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+show me more details for the movie dirty dancing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+find name of director of the movie platoon,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+information for sally field,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+avatar must have cost a bundle,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+what is the origin country of mirror,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+please provide movies directed by oliver stone,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+who directed the movie the dark knight,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+what are some movies made by searchlight films,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+budget for the avengers,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+what was the actor who played esme in twilight,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+see the olsen twins,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show me a list of musicals,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+find release date of the help,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+i need to know in detail about the cast and crew of the movie apollo thirteen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+production company for spiderman,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+movies from england,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i want to look for the director of freedom writers,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+what new movies does lionsgate have out,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+list rating g,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+i would like a list of paramount movies,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+what movies has will ferrell been in,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+find me tamil movies,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+show me scifi fantasy movies,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+find movies directed by todd solondz,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+when was avatar released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+i want to see movies from france,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me movie gilda by charles vidor,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+can you find the movies with korean language,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+show lionsgate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+who is will ferrell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+producer of heroine,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+find movies with pg-13 only,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+find movies produced by lucas films,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+what role did sarah polley play in go,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+how much did et gross worldwide,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+show me the movie vulgaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+can i see the lion king's revenue,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+who directed cast away,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+who acted in black swan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+watch miramax,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+what was the budget for wrong turn,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me will smith movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+please show me who produces madagascar,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+what is the rating for the avenger movie,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+find movies of yash chopra,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+movies about basketball,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+how many movies were filmed in asia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+list ice skating movies please,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+find movies produced in russia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+when was expendables 2 released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+search for the release date of vulgaria,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+tell me about the movie the campaign in detail,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show only paramount movies,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+dutch movie listing,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+find movies with g rating,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+what genre is the movie in july,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me some films produced by jon landau,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+who directed black swan,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i need a movie producer list,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+italian movies,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+generate a list of movies about ice skating,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+who directed batman,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+who directed gilda,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me italian movies,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+movies about zombies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+where was footnote made,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lion king filmed at,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hitchcock movies,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+about the campaign,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+who are the producers for the movie hitch,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+display information for the movie life is beautiful,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+who produced steel magnolias,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+find movies only g,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+i want to look for movies about god,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+about finding nemo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+display all details of original finding nemo movie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+who did avatar,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+when will paranormal activity be released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+tell me about movie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+what movies have robert deniro produced,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+who stars in finding nemo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+i want a list of pg rated movies,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+what was the budget for facing the giants,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+what date did vulgaria open,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+show me where black swan is from,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+display biography of actor will ferrell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+display movies of zombies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+find movies directed by stephen spielberg,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i want to search for alfred hitchcock movies,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+how many films has taye diggs been in,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+look up finding nemo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+search for movies with a pg rating,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+what movies has alfred hitchcock directed,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+get movies about zombies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+find action movies,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+i can't figure out the name of the lead guy in the avengers,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+show me movies that are rated pg thirteen,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+who directed the movie gilda,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+can you locate movies produced by clint eastwood,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+language of a separation,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+when was black swan in the theatre,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+can you get me a pg movie list,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+warner brothers bio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+who directed the movie cabin in the woods,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+castmembers of apollo thirteen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+what year was dirty dancing released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+what day avatar released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+movie stuff for steven spielberg,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+please show me info on the movie dirty dancing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+who produces steel magnolias,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+what movies can young children watch,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+please show me info on the movie the campaign,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show me the cast of finding nemo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+what was the budget for the movie avatar,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+give me a list of some movies that have pg-13 rating,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+search for information about charles vidor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+list of movies in spanish,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+how many films did ed harris do with tom hanks,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+will you please show me info on the movie dirty dancing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+can i see more info the movie life is beautiful,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+look for kareena's movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+when was dirty dancing released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+lionsgate movies,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+list french language comedy films,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+avatar release,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+show me movies in spanish,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+i would like more information about lionsgate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+look for films with halle berry,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+who directed finding nemo,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+who starred in finding nemo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+when was hum tum relesed,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+show movies directed by,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+synopsis for finding nemo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show me a list of movies produced by mgm,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+show me a list of disney movies,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+which decade did the movie come out,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+which movies were made in japan,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i need a list of movies produced by clint eastwood,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+language of anna karinia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+i would like look up the genre step up is in,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+i'd like to see foreign films,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show videos about time travel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+who is the person that directed the film the dark knight,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me only movies with harrison ford,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+pg movies list please,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+profits made by titanic,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+who produced the great debaters,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+alfred hitchcock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+movies regarding the hobby of chess,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+show me the rating for the movie the expendables 2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+actors for life is beautiful,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+find a list of movies directed by spielberg,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+look up r rated movies,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+how much was hunger games made for,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+producer for ms. congeniality,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+cast of dirty dancing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+show my spielberg info,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show the cast of hitch,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+i want only spanish movies,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+i want to look up movies about dancing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+who directed to kill a mockingbird,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+finding nemo movie shortcut,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+i want scary zombie movies,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+list of french language movies,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+whats some details for the movie finding nemo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+what was the budget for passion of the christ,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+what is the ratings of action movies,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+apollo thirteen cast members,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+movie list hitchcock,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+who was the producer for coming to america,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+when did dirty dancing come out,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+search for the producer of mirror,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+what movies did clint eastwood direct,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i want to watch a romance made in india,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+has spike lee produced any films,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+list the movies anna paquin has starred in,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+when was lawless released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+spanish language movies,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+how old should a person be to watch marley and me,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+goodfellas director,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+list all robert wise movies,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+do you have anything by george cukor,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+find me films produced by drew barrymore,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+type of movie,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+can i see the set list and cast for life is beautiful,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+will ferrell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+find movies directed by steven spielberg,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show back to the future movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+search for the producer of step up,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+list steven spielberg produced movies,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+search for the cast and crew for the movie dirty dancing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+what are some recent released pg movies,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+bring up all pg movies,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+what new movies are playing with rating of pg thirteen,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+what was the gross earnings for the avengers movie,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+where can i find movies in russian,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+the godfather's budget,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+how much did the dark night generate,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+what type of movie is ted considered to be,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+can you find movies in spanish,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+who produced the godfather,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+what year was the godfather released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+who made the movie field of dreams,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me movies from england,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i would like to get all the information about the the campaign,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+find films,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show me the director of forest gump,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i want to look for movies with an r rating,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+what is terry georges background,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+what was the budget of my big fat greek wedding,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+who was in now,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+who were roberto benigni's costars on life is beautiful,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+what is possessed realese date,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+i would like to know names of some indian movies,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+what movies are spoken in another language,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+can you tell me when 24 will be released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+what is the buget of movie heroine,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i need to know which country does the movie thoda pyaar thoda magic belongs to,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+search when the birds will be released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+movie info kristen stewart,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+movies directed by steven spielberg,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+get me the name of who directed the master,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+find romance movies,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+who stars on the house at the end of the street,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+pg-13 movies,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+what was the bourne identity's budget,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me more details for the movie in july,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+movie by steven spielberg,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+synopsis for in july,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+display production company lionsgate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+what was the budget for black swan,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+information for clark gable,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+list gilda director,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+what is the name of the person who made et,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+how much did titanic cost to make,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+list of g movies,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+find the producer of gone with the wind,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+can you show me details about the movie the campaign,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+can i see all movies starring alan rickman,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+tell me where is trainspotting from,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me pg movies,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+what language is ju on on,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+show me r movies,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+show me spielberg's info,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+i need to see all pg movies,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+find movies in spanish,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+can you tell me what genre the movie avatar falls in,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+what were production costs for black swan,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+looking for a horror movie,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me the movies acted by bala krishna,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+director for gone with the wind,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+movie directors,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show movies charlie sheen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+is hotel transylavania good for adults,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+who filmed the dark knight,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+movies by tom hanks,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+what genre is the hunger games,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+when was the movie step up released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+display movies in german,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+which movies are directed by tyler perry,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+search for movies produced by morgan freeman,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+give me more details about the producer ray stark,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+who made the movie avatar,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me life is beautiful information,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+search movies made by mel gibson,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ron howard movies produce list,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+find me the film in july,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+search twentieth century fox,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+what movie made the least money,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+what is the release date of the movie barfi,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+list some of the best world war 2 films,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+i want to know the avatar's budget,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+how much was the budget for the hunger games,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+what movies are made by twentieth century fox television,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+who is in the movie two can play that game,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+show me the name of the country for the movie thoda pyaar thoda magic,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me recent movies from lionsgate,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+search for the rating of the movie dredd,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+movies by alfred hitchcock,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+clint eastwood movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+who directed soul surfer,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+how many movies has tom hanks starred in,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+what language is shindler's list in,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+did robert wise direct the sound of music,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+display director of the movie avengers,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show movies done by 7 arts,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+find japanese movies,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+can you please search movies of tom cruise,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+when was house at the end of the street released,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+give me a list of zombie movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+how is the movie classified,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+what was the production company for black swan,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+what are the particulars for the movie life is beautiful,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show me some war themed movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+show me the name of the country from which the movie kati patang comes,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+is the other guys a comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me chinese movies,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+when is will ferrell's birthday,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+show me westerns,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+movies with vampires,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+i would like to find the producers of the lion king,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+when is sinister hitting theaters,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+list all movies produced by alfred ruddy,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+what foreign language is the movie belle available to view in,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+what rating did the dark knight rises receive,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+please tell me about movies from the usa,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+steven spielberg,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+list some movies that are in french,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+what movies did kevin costner direct,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+brad pitt movie now,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+how much did my big fat greek wedding cost,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+movies in spanish,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+what kind of movie is black swan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+what is the genre of the movie lawless,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+list some paramount produced films,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+look for information about paramount studios,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+i would like a list of movies that have been made in spanish,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+when can i see top gun,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+show me korean movies,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+lion king release yr,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+find john cusack movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+please find movies directed by stephen spielberg,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+does italy make any movies,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i need to know where trainspotting comes from,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show recent movies rated pg,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+show me the lion king's budget,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+actors in star wars four,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+watch james cameron movies,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+country of le havre,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+when will the great gatsby be out,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+what genre is the movie looper,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+movies with harrison ford,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+who directed return,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+look for john cusack movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+which movies are from stephen spielberg,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me movies with jennifer aniston,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+show me movies listed by directors,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i only want movies by sidney lumit,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+actors in house at the end of the street,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+bring up a bio on will ferrell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+how much was the total budget for the titanic,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+search for warner brothers movies,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+movies with angelina jolie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+what genre is finding nemo,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+show me information related to the film the campaign,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+what movies has clive owen been in,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+show me finding nemo's page,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+genre for the avengers,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+find cast and crew for the movie finding nemo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+are there any movies that are rated r,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+when can i see the great gatsby,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+please run a search on will ferrell and display all info returned,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show me all movies about diving,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+which movies are rated pg-13,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+can you please list all movies with brad pitt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+i want japanese movies,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+who produced avatar with james cameron,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+can you tell me more about the cast and crew of the movie apollo thirteen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+find movies filmed in canada,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+find russian movies,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+who is will ferrell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+show movies in french,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+how much did it take to make the avengers,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i need information on sean connery,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+g movies,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+what company produced the movie field of dreams,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+who played in life is beautiful,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+i want to see a list of scary movies,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+bette midler movies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+show me the rating for the movie the lord of rings,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+what was the budget of the movie avatar,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+find movies by mosfilm,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+who directed gilda,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+r rated movies,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+give me a list of directors,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+what language was aguirre wrath of god in,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+person produced the blind side,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+can you please list all movies with brad pitt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+movies in chinese,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+search for foreign movies,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i want to look for movies produced by morgan freeman,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+give me a list of movies that george lucas produced,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+what is the rating for dirty dancing,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+in which movies has angelina jolie starred,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+i need to know the genre of the movie avatar,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0

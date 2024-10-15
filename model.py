@@ -1,23 +1,36 @@
+
 import torch
 import torch.nn as nn
 
 class MLPModel(nn.Module):
-    def __init__(self, input_dim, output_dim, dropout_rate=0.1):
+    def __init__(self, input_dim, output_dim, dropout_rate=0.2):
         super(MLPModel, self).__init__()
-        self.fc1 = nn.Linear(input_dim, 512)  # First hidden layer with 768 neurons
-        self.dropout1 = nn.Dropout(dropout_rate)  # Dropout layer after the first hidden layer
-        self.fc2 = nn.Linear(512, 256)         # Second hidden layer with 256 neurons
-        self.dropout2 = nn.Dropout(dropout_rate)  # Dropout layer after the second hidden layer
-        self.fc3 = nn.Linear(256, 128)         # Third hidden layer with 128 neurons
-        self.dropout3 = nn.Dropout(dropout_rate)  # Dropout layer after the third hidden layer
-        self.fc4 = nn.Linear(128, output_dim)          # Output layer for 19 classes
+        self.fc1 = nn.Linear(input_dim, 512)
+        self.bn1 = nn.BatchNorm1d(512)
+        self.dropout1 = nn.Dropout(dropout_rate)
+        
+        self.fc2 = nn.Linear(512, 256)
+        self.bn2 = nn.BatchNorm1d(256)
+        self.dropout2 = nn.Dropout(dropout_rate)
+        
+        self.fc3 = nn.Linear(256, 128)
+        self.bn3 = nn.BatchNorm1d(128)
+        self.dropout3 = nn.Dropout(dropout_rate)
+        
+        self.fc4 = nn.Linear(128, 64)
+        self.bn4 = nn.BatchNorm1d(64)
+        self.dropout4 = nn.Dropout(dropout_rate)
+        # Corrected input size for the last fully connected layer
+        self.fc5 = nn.Linear(64, output_dim)  
 
     def forward(self, x):
-        x = torch.relu(self.fc1(x))            # Activation for the first layer
-        x = self.dropout1(x)                    # Apply dropout after the first layer
-        x = torch.relu(self.fc2(x))            # Activation for the second layer
-        x = self.dropout2(x)                    # Apply dropout after the second layer
-        x = torch.relu(self.fc3(x))            # Activation for the third layer
-        x = self.dropout3(x)                    # Apply dropout after the third layer
-        x = torch.sigmoid(self.fc4(x))         # Sigmoid for multi-label output
+        x = torch.relu(self.bn1(self.fc1(x)))
+        x = self.dropout1(x)
+        x = torch.relu(self.bn2(self.fc2(x)))
+        x = self.dropout2(x)
+        x = torch.relu(self.bn3(self.fc3(x)))
+        x = self.dropout3(x)
+        x = torch.relu(self.bn4(self.fc4(x)))
+        x = self.dropout4(x)
+        x = torch.sigmoid(self.fc5(x))  
         return x

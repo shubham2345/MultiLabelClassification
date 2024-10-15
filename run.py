@@ -1,16 +1,18 @@
 import argparse
-from processing import transform, training_validation_dataset
+from processing import transform
 from sklearn.model_selection import train_test_split
 from model import MLPModel
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 import torch
 import torch.nn as nn
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, precision_recall_curve
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from torch.optim.lr_scheduler import StepLR
+from torch.optim.lr_scheduler import StepLR, ReduceLROnPlateau
+from torch.optim.lr_scheduler import ReduceLROnPlateau
+from sklearn.metrics import classification_report
 
 
 
@@ -39,37 +41,21 @@ def main():
     print(f'Test Data Path: {test_data_path}')
     print(f'Output Path: {output_path}')
  
-    # Transform and split the training data
-    input_vectorized_df, label_encoded_df, vectorizer, count_vectorizer_scalar, word2vec_scalar = transform(training_data_path)
-
+    #count vectorizer with analyzer as char
+    input_vectorized_df, label_encoded_df, vectorizer = transform(training_data_path)
 
     # Split the dataset into training and validation sets
-    x_train, x_val, y_train, y_val = train_test_split(input_vectorized_df, label_encoded_df, test_size=0.005, random_state=42)
+    x_train, x_val, y_train, y_val = train_test_split(input_vectorized_df, label_encoded_df, test_size=0.2, random_state=42)
 
     print(x_train.shape, x_val.shape)
     print(y_train.shape, y_val.shape)
 
 
 
-
-
-
-    # Initialize model, loss function, and optimizer
-    # Split the dataset into training and validation sets
-    # print("bois", x_train, x_train.values)
-    # Convert DataFrames to PyTorch tensors
     x_train = torch.FloatTensor(x_train.values)
-    # print(type(x_train))
     y_train = torch.FloatTensor(y_train.values) # Ensure correct shape
     x_val = torch.FloatTensor(x_val.values)
     y_val = torch.FloatTensor(y_val.values)  # Ensure correct shape
-
-    # Normalize your input data for training
-    # mean = x_train.mean(dim=0)
-    # std = x_train.std(dim=0)
-
-    # x_train = (x_train - mean) / std
-    # x_val = (x_val - mean) / std
 
 
     # Create TensorDataset and DataLoader
@@ -79,8 +65,9 @@ def main():
 
     model = MLPModel(input_dim=x_train.shape[1], output_dim=y_train.shape[1])  # Adjust input_dim and output_dim
     criterion = nn.BCELoss()  # Binary Cross-Entropy Loss for multi-label classification
-    optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=0.0001)
-    # print(model, criterion, optimizer)
+    optimizer = optim.Adam(model.parameters(), lr=0.0005,weight_decay=1e-5)
+    scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=10, verbose=True)
+
 
     # Initialize the learning rate scheduler
     # scheduler = StepLR(optimizer, step_size=50, gamma=0.1)  # Reduce learning rate every 50 epochs by a factor of 0.1
@@ -91,13 +78,16 @@ def main():
     training_loss=[]
     validation_accuracy=[]
     validation_loss = []
+    optimal_thresholds=[]
+
     # Training Loop
-    num_epochs=200
+    num_epochs=45
     patience = 10  # Number of epochs to wait for improvement
     best_val_loss = float('inf')
     epochs_without_improvement = 0
 
     for epoch in range(num_epochs):
+        print("epoch", epoch)
         epochs.append(epoch)
         model.train()  # Set the model to training mode
         batch_training_loss = []
@@ -107,37 +97,28 @@ def main():
             outputs = model(batch_x) # Forward pass
             loss = criterion(outputs, batch_y)  # Compute the loss
             batch_training_loss.append(loss.item())
-            # print("Training Loss", loss.item())
-            # print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
             loss.backward()  # Backpropagation
             optimizer.step()  # Update weights
         training_loss.append(sum(batch_training_loss)/len(batch_training_loss))
 
         model.eval()
         with torch.no_grad():
+            #Training Loss & Accuracy
             train_outputs = model(x_train)
-            # print(train_outputs[0])
-            train_predictions = (train_outputs > 0.5).int()  # Binarize predictions
-            # print(train_predictions[0])
+            train_predictions = (train_outputs > 0.38).int()
             train_accuracy = accuracy_score(y_train.numpy(), train_predictions.numpy())
             training_accuracy.append(train_accuracy)
-            #rain_accuracy = (train_predictions == y_train.int()).sum().item() / len(y_train)
-    # print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}, Training Accuracy: {train_accuracy:.4f}')
-
-
-
-        # model.eval()
-        # with torch.no_grad():
+            #Validation Loss & Accuracy
             val_outputs = model(x_val)
             val_loss = criterion(val_outputs, y_val)
             batch_validation_loss.append(val_loss)
-            # print(val_loss.item())
-            val_predictions = (val_outputs > 0.5).int()
-            # (predicted)
+            val_predictions = (val_outputs > 0.38).int()
             val_accuracy = accuracy_score(y_val.numpy(), val_predictions.numpy())
             validation_accuracy.append(val_accuracy)
-            # acc = (predicted == y_val.int()).sum() / len(y_val)
-            # print("Accuracy on the validation dataset", val_accuracy)
+
+            last_val_outputs=val_outputs.cpu().numpy()
+        validation_loss.append(sum(batch_validation_loss)/len(batch_validation_loss))
+
 
             # Check if we have a new best validation loss
             # if val_loss < best_val_loss:
@@ -152,12 +133,59 @@ def main():
             #     print(f"Early stopping triggered at epoch {epoch + 1}")  # Show which epoch it stopped
             #     break
 
-        validation_loss.append(sum(batch_validation_loss)/len(batch_validation_loss))
 
         # scheduler.step()
 
     print(f'Epoch [{epoch+1}/{num_epochs}], Training Accuracy: {train_accuracy:.4f}, Validation Accuracy: {val_accuracy:.4f}')
 
+    class_names = ['actor.gender', 'gr.amount', 'movie.country', 'movie.directed_by', 'movie.estimated_budget', 
+                   'movie.genre', 'movie.gross_revenue', 'movie.initial_release_date', 'movie.language', 
+                   'movie.locations', 'movie.music', 'movie.produced_by', 'movie.production_companies', 
+                   'movie.rating', 'movie.starring.actor', 'movie.starring.character', 'movie.subjects', 
+                   'none', 'person.date_of_birth']
+    
+        # Use the last_val_outputs for threshold calculations
+    optimal_thresholds = []
+    for i in range(last_val_outputs.shape[1]):  # Iterate over the number of classes
+        precision, recall, thresholds = precision_recall_curve(y_val[:, i].numpy(), last_val_outputs[:, i])
+
+        # Calculate F1 scores and find the optimal threshold
+        f1_scores = 2 * (precision * recall) / (precision + recall + 1e-10)  # Avoid division by zero
+        # print(f1_scores.shape)
+        
+        optimal_idx = np.argmax(f1_scores) if len(f1_scores) > 0 else 0  # Ensure optimal_idx is assigned a value
+        optimal_threshold = thresholds[optimal_idx] if len(thresholds) > 0 else 0  # Ensure optimal_threshold is assigned a value
+        optimal_thresholds.append(optimal_threshold)
+
+        # plt.figure(figsize=(10, 6))
+        # plt.plot(recall, precision, marker='.')
+        # plt.axvline(x=recall[optimal_idx], color='red', linestyle='--', label='Optimal Threshold = {:.2f}'.format(optimal_threshold))
+        # plt.xlabel('Recall')
+        # plt.ylabel('Precision')
+        # plt.title(f'Precision-Recall Curve for Class: {class_names[i]}')
+        # plt.xlim([0.0, 1.0])
+        # plt.ylim([0.0, 1.0])
+        # plt.grid()
+        # plt.legend()
+        # plt.show()
+        
+
+        print(f'Class {i+1} - Optimal Threshold: {optimal_threshold:.4f}')
+
+    # Calculate the average threshold
+    average_threshold = np.mean(optimal_thresholds)
+    print(f'Average Threshold: {average_threshold:.4f}')
+
+    # Generate classification report using the last validation outputs
+    last_val_predictions = (last_val_outputs > average_threshold).astype(int)  # Binarize based on average threshold
+    print("Classification Report:")
+    print(classification_report(y_val.numpy(), last_val_predictions, target_names=class_names))
+
+    # You can also save the predictions to a CSV if needed
+    val_predictions_df = pd.DataFrame(last_val_outputs, columns=[f'Class_{i + 1}' for i in range(last_val_outputs.shape[1])])
+    val_predictions_df['Actual'] = y_val.numpy().tolist()  # Add actual labels for comparison
+    val_predictions_df.to_csv('data/val_predictions.csv', index=False)
+    print("Validation predictions saved to val_predictions.csv")
     #plotting 
     epochs=np.array(epochs)
     plt.figure(figsize=(12, 5))
@@ -185,30 +213,19 @@ def main():
     plt.tight_layout()
     plt.show()
 
-
-    # Your mainn logic here
-    # For example: load data, train a model, and save output
-
-    test_input_vectorized_df, _ = transform(test_data_path, vectorizer=vectorizer, count_vectorizer_scaler=count_vectorizer_scalar, word2vec_scaler=word2vec_scalar)  # Only transform inputs
+    test_input_vectorized_df, _ = transform(test_data_path, vectorizer=vectorizer)
     print(test_input_vectorized_df.shape)
     # Convert test data to PyTorch tensor
     x_test_tensor = torch.FloatTensor(test_input_vectorized_df.values)
-
-    # x_test_tensor = (x_test_tensor - mean) / std 
-
 
     # Make predictions on the test data
     model.eval()
     with torch.no_grad():
         test_outputs = model(x_test_tensor)
-        test_predictions = (test_outputs > 0.5).int()  # Binarize predictions
+        test_predictions = (test_outputs > 0.38).int()  # Binarize predictions
 
     
-    class_names = ['actor.gender', 'gr.amount', 'movie.country', 'movie.directed_by', 'movie.estimated_budget', 
-                   'movie.genre', 'movie.gross_revenue', 'movie.initial_release_date', 'movie.language', 
-                   'movie.locations', 'movie.music', 'movie.produced_by', 'movie.production_companies', 
-                   'movie.rating', 'movie.starring.actor', 'movie.starring.character', 'movie.subjects', 
-                   'none', 'person.date_of_birth']  # Get column names for relations
+    
     results = []
 
     # Iterate over predictions to construct the output
